@@ -2,12 +2,14 @@
 
 ## Pre-Requestites
 Python3 working on RPI
+
 OpenCV installed on RPI
+
 Working VNC server on RPI
 
 
 ## Description
-Self Driving Remote Control car with the use of a raspberry pi. Project cost was around £150 for RPI, the car and the connecting parts. This was my first ever try at anything to do with circuits so I had used an online tutorial in order to figure out how to do motor and sensor connections with the GPIO on the RPI. The car I bought had side doors that opened which made turning the RPI on and off much easier. I did have to drill some holes at the top and front so the camera and sensor wires could be put through.
+Self Driving Remote Control car with the use of a raspberry pi. Project cost was around £150 for RPI, the car and the connecting parts. This was my first ever try at anything to do with circuits so I had used an online tutorial in order to figure out how to do motor and sensor connections with the GPIO on the RPI. The car I bought had side doors that opened which made turning the RPI on and off much easier as well as charging the battery pack (Heads up, if you do decide to make one of these, make sure your battery pack can continuously output 5V/2.4A of power, otherwise your RPI will throttle). I did have to drill some holes at the top and front so the camera and sensor wires could be put through.
 
 If your feeling frisky and want to control the RCCAR using your DualShock 4 controller you're going to need pyPS4Contoller installed on your RPI.
 ```bash
